@@ -1,0 +1,9 @@
+{
+"LambdaFunctionConfigurations": [
+    {
+      "Id": "CreateThumbnailEventConfiguration",
+      "LambdaFunctionArn": "arn:aws:lambda:eu-west-1:766685550559:function:CreateThumbnail",
+      "Events": [ "s3:ObjectCreated:Put" ]
+    }
+  ]
+}
