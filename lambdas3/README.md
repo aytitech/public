@@ -143,7 +143,7 @@ aws lambda add-permission --function-name CreateThumbnail \
 "LambdaFunctionConfigurations": [
     {
       "Id": "CreateThumbnailEventConfiguration",
-      "LambdaFunctionArn": "arn:aws:lambda:us-west-2:123456789012:function:CreateThumbnail",
+      "LambdaFunctionArn": "arn:aws:lambda:eu-west-1:766685550559:function:CreateThumbnail",
       "Events": [ "s3:ObjectCreated:Put" ]
     }
   ]
