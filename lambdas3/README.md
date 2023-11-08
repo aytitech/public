@@ -135,7 +135,7 @@ aws lambda create-function --function-name CreateThumbnail \
 aws lambda add-permission --function-name CreateThumbnail \
 --principal s3.amazonaws.com --statement-id s3invoke --action "lambda:InvokeFunction" \
 --source-arn arn:aws:s3:::ozgurlambdatest1234 \
---source-account 
+--source-account 766685550559
 ```
 
 ```json
